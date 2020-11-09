@@ -34,6 +34,8 @@ const budget = {
         },
     ]
 };
+console.log("eslint no-console rule test")
+console.log(("eslint extra-parens rule test"))
 
 function generateTable(b) {
     const p = document.getElementById('list');
