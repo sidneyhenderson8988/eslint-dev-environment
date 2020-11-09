@@ -1,3 +1,4 @@
+//module.exports = generateTable()
 const budget = {
     myBudget: [
         {
@@ -34,8 +35,8 @@ const budget = {
         },
     ]
 };
-console.log("eslint no-console rule test")
-console.log(("eslint extra-parens rule test"))
+//console.log("eslint no-console rule test")
+//console.log(("eslint extra-parens rule test"))
 
 function generateTable(b) {
     const p = document.getElementById('list');

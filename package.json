@@ -4,12 +4,15 @@
   "description": "Code to be used to start the Quiz 10 exercise.",
   "main": "main.js",
   "scripts": {
-    "lint": "eslint ./"
+		"lint": "eslint ./",
+		"test": "mocha"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "eslint": "^7.13.0"
+    "chai": "^4.2.0",
+    "eslint": "^7.13.0",
+    "mocha": "^8.2.1"
   }
 }
